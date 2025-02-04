@@ -18,8 +18,8 @@
 
 import ctypes
 import comtypes
-from iid import IID_IAudioMediaType
-from audioclient import WAVEFORMATEX
+from .iid import IID_IAudioMediaType
+from .audioclient import WAVEFORMATEX
 from ctypes.wintypes import (
     BOOL,
     DWORD,

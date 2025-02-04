@@ -1,15 +1,15 @@
 
 import comtypes
-from endpoint import AudioDefaultEndpoint
-from __core_audio.enum import EDataFlow
-from __core_audio.devicetopologyapi import PIDeviceTopology
-from __core_audio.iid import IID_IDeviceTopology
-from device import (
+from .endpoint import AudioDefaultEndpoint
+from .__core_audio.enum import EDataFlow
+from .__core_audio.devicetopologyapi import PIDeviceTopology
+from .__core_audio.iid import IID_IDeviceTopology
+from .device import (
     AudioDevice,
     AudioDeviceEnumerator,
     AudioNotificationClient
 )
-from __core_audio.constant import (
+from .__core_audio.constant import (
     PKEY_DeviceInterface_FriendlyName,
     STGM_READ
 )

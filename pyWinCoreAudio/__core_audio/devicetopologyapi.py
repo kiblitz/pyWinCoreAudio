@@ -19,7 +19,7 @@
 import comtypes
 import ctypes
 from comtypes.automation import VARTYPE
-from enum import (
+from .enum import (
     PConnectorType,
     PDataFlow,
     KSJACK_SINK_CONNECTIONTYPE,
@@ -38,7 +38,7 @@ from ctypes.wintypes import (
     WCHAR,
     LPVOID
 )
-from iid import (
+from .iid import (
     IID_IAudioAutoGainControl,
     IID_IAudioBass,
     IID_IAudioMidrange,

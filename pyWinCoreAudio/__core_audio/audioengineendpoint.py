@@ -18,13 +18,13 @@
 
 import ctypes
 import comtypes
-from mmdeviceapi import IMMDevice
-from audioclient import PWAVEFORMATEX, WAVEFORMATEX
-from audioapotypes import (
+from .mmdeviceapi import IMMDevice
+from .audioclient import PWAVEFORMATEX, WAVEFORMATEX
+from .audioapotypes import (
     APO_CONNECTION_PROPERTY,
     PAPO_CONNECTION_PROPERTY
 )
-from enum import (
+from .enum import (
     AE_POSITION_FLAGS,
     EndpointConnectorType,
     AUDIO_CURVE_TYPE
@@ -37,7 +37,7 @@ from ctypes.wintypes import (
     HANDLE,
     LPWSTR
 )
-from _iid import (
+from ._iid import (
     IID_IAudioEndpointLastBufferControl,
     IID_IHardwareAudioEngineBase,
     IID_IAudioLfxControl,

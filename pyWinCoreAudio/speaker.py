@@ -16,8 +16,8 @@
 # You should have received a copy of the GNU General Public License along
 # with EventGhost. If not, see <http://www.gnu.org/licenses/>.
 
-from __core_audio.enum import EChannelMapping
-from __core_audio.constant import (
+from .__core_audio.enum import EChannelMapping
+from .__core_audio.constant import (
     KSAUDIO_SPEAKER_DIRECTOUT,
     KSAUDIO_SPEAKER_MONO,
     KSAUDIO_SPEAKER_1POINT1,

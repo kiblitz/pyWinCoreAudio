@@ -18,9 +18,9 @@
 
 import ctypes
 import comtypes
-from enum import PAudioSessionState
-from audioclient import PISimpleAudioVolume
-from iid import (
+from .enum import PAudioSessionState
+from .audioclient import PISimpleAudioVolume
+from .iid import (
     IID_IAudioSessionEvents,
     IID_IAudioSessionControl,
     IID_IAudioSessionControl2,

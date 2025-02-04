@@ -18,7 +18,7 @@
 
 import ctypes
 import comtypes
-from iid import IID_IAudioEndpointFormatControl
+from .iid import IID_IAudioEndpointFormatControl
 from ctypes.wintypes import (
     DWORD,
 )

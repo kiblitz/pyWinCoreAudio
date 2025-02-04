@@ -18,34 +18,34 @@
 
 
 import comtypes
-from singleton import Singleton
-from utils import get_icon
-from __core_audio.audioclient import PIAudioClient
-from session import AudioSessionManager
-from speaker import AudioSpeakers
-from volume import AudioVolume
-from jack import (
+from .singleton import Singleton
+from .utils import get_icon
+from .__core_audio.audioclient import PIAudioClient
+from .session import AudioSessionManager
+from .speaker import AudioSpeakers
+from .volume import AudioVolume
+from .jack import (
     AudioJackDescription,
     AudioJackSinkInformation
 )
-from parts import (
+from .parts import (
     AudioDeviceConnection,
     AudioDeviceSubunit,
 )
 
-from __core_audio.enum import (
+from .__core_audio.enum import (
     EDataFlow,
     ERole,
     EndpointFormFactor,
     EndpointConnectorType
 )
-from __core_audio.policyconfig import IPolicyConfigVista
+from .__core_audio.policyconfig import IPolicyConfigVista
 
-from __core_audio.mmdeviceapi import (
+from .__core_audio.mmdeviceapi import (
     IMMDeviceEnumerator,
     IMMEndpoint,
 )
-from __core_audio.devicetopologyapi import (
+from .__core_audio.devicetopologyapi import (
     PIDeviceTopology,
     PIAudioBass,
     PIKsJackDescription,
@@ -60,7 +60,7 @@ from __core_audio.devicetopologyapi import (
     PIAudioLoudness,
     PIAudioTreble,
 )
-from __core_audio.iid import (
+from .__core_audio.iid import (
     IID_IAudioAutoGainControl,
     IID_IAudioBass,
     IID_IAudioChannelConfig,
@@ -79,7 +79,7 @@ from __core_audio.iid import (
     CLSID_PolicyConfigVistaClient
 )
 
-from __core_audio.constant import (
+from .__core_audio.constant import (
     PKEY_Device_FriendlyName,
     DEVPKEY_DeviceClass_IconPath,
     PKEY_Device_DeviceDesc,

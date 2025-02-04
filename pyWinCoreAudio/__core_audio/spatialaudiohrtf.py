@@ -18,21 +18,21 @@
 
 import ctypes
 import comtypes
-from audioclient import PWAVEFORMATEX
-from spatialaudioclient import PISpatialAudioObjectRenderStreamNotify
-from enum import (
+from .audioclient import PWAVEFORMATEX
+from .spatialaudioclient import PISpatialAudioObjectRenderStreamNotify
+from .enum import (
     AUDIO_STREAM_CATEGORY,
     AudioObjectType
 )
-from iid import (
+from .iid import (
     IID_ISpatialAudioObjectForHrtf,
     IID_ISpatialAudioObjectRenderStreamForHrtf
 )
-from _spatialaudioclient import (
+from ._spatialaudioclient import (
     ISpatialAudioObjectRenderStreamBase,
     ISpatialAudioObjectBase
 )
-from enum import (
+from .enum import (
     SpatialAudioHrtfEnvironmentType,
     SpatialAudioHrtfDirectivityType,
     SpatialAudioHrtfDistanceDecayType,

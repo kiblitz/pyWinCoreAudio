@@ -18,29 +18,29 @@
 
 
 import comtypes
-from singleton import Singleton
-from endpoint import AudioEndpoint
-from parts import AudioDeviceConnection
-from utils import run_in_thread, get_icon
+from .singleton import Singleton
+from .endpoint import AudioEndpoint
+from .parts import AudioDeviceConnection
+from .utils import run_in_thread, get_icon
 
-from __core_audio.mmdeviceapi import (
+from .__core_audio.mmdeviceapi import (
     IMMDeviceEnumerator,
     IMMNotificationClient
 )
-from __core_audio.devicetopologyapi import (
+from .__core_audio.devicetopologyapi import (
     PIDeviceTopology,
     IPart
 )
-from __core_audio.enum import (
+from .__core_audio.enum import (
     AudioDeviceState,
     EDataFlow,
     ERole
 )
-from __core_audio.iid import (
+from .__core_audio.iid import (
     IID_IDeviceTopology,
     CLSID_MMDeviceEnumerator
 )
-from __core_audio.constant import (
+from .__core_audio.constant import (
     S_OK,
     PKEY_DeviceInterface_FriendlyName,
     DEVPKEY_DeviceClass_IconPath,

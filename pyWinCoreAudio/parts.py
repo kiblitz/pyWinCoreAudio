@@ -17,12 +17,12 @@
 # with EventGhost. If not, see <http://www.gnu.org/licenses/>.
 
 import comtypes
-from __core_audio.enum import (
+from .__core_audio.enum import (
     ConnectorType,
     ERole,
     PartType
 )
-from __core_audio.devicetopologyapi import (
+from .__core_audio.devicetopologyapi import (
     IPart,
 )
 

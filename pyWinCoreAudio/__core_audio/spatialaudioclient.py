@@ -18,9 +18,9 @@
 
 import ctypes
 import comtypes
-from audioclient import PWAVEFORMATEX
-from mmdeviceapi import PPROPVARIANT
-from enum import (
+from .audioclient import PWAVEFORMATEX
+from .mmdeviceapi import PPROPVARIANT
+from .enum import (
     AUDIO_STREAM_CATEGORY,
     AudioObjectType,
     PAudioObjectType
@@ -33,7 +33,7 @@ from ctypes.wintypes import (
     LPVOID,
     BYTE
 )
-from iid import (
+from .iid import (
     IID_IAudioFormatEnumerator,
     IID_ISpatialAudioObjectBase,
     IID_ISpatialAudioObject,

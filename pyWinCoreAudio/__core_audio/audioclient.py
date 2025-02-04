@@ -18,7 +18,7 @@
 
 import ctypes
 import comtypes
-from iid import (
+from .iid import (
     IID_IActivateAudioInterfaceAsyncOperation,
     IID_IActivateAudioInterfaceCompletionHandler,
     IID_IAudioCaptureClient,
@@ -33,7 +33,7 @@ from iid import (
     IID_IChannelAudioVolume,
     IID_ISimpleAudioVolume,
 )
-from enum import (
+from .enum import (
     AUDIO_STREAM_CATEGORY,
     AUDCLNT_STREAMOPTIONS
 )

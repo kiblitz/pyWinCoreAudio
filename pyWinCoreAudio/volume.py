@@ -18,18 +18,18 @@
 
 import ctypes
 import comtypes
-from utils import run_in_thread
-from singleton import Singleton
-from __core_audio.constant import (
+from .utils import run_in_thread
+from .singleton import Singleton
+from .__core_audio.constant import (
     S_OK,
     ENDPOINT_HARDWARE_SUPPORT_VOLUME,
     ENDPOINT_HARDWARE_SUPPORT_MUTE
 )
-from __core_audio.iid import (
+from .__core_audio.iid import (
     IID_IAudioEndpointVolumeEx,
     IID_IAudioMeterInformation
 )
-from __core_audio.endpointvolumeapi import (
+from .__core_audio.endpointvolumeapi import (
     PIAudioEndpointVolumeEx,
     PIAudioMeterInformation,
     IAudioEndpointVolumeCallback

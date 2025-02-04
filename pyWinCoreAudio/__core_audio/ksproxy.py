@@ -19,11 +19,11 @@
 
 import ctypes
 import comtypes
-from ks import PKSMETHOD
-from iid import (
+from .ks import PKSMETHOD
+from .iid import (
     IID_IKsControl,
 )
-from enum import (
+from .enum import (
     AUDIO_STREAM_CATEGORY,
     AUDCLNT_STREAMOPTIONS
 )

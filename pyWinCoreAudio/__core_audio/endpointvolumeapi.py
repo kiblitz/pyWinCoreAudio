@@ -18,13 +18,13 @@
 
 import ctypes
 import comtypes
-from mmdeviceapi import IMMDeviceEnumerator
+from .mmdeviceapi import IMMDeviceEnumerator
 from comtypes import (
     GUID,
     COMMETHOD,
     CLSCTX_INPROC_SERVER,
 )
-from iid import (
+from .iid import (
     IID_IAudioEndpointVolume,
     IID_IAudioEndpointVolumeEx,
     IID_IAudioMeterInformation,

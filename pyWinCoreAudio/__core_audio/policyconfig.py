@@ -19,13 +19,13 @@
 
 import ctypes
 import comtypes
-from enum import ERole
-from audioclient import PWAVEFORMATEX
-from propertystore import (
+from .enum import ERole
+from .audioclient import PWAVEFORMATEX
+from .propertystore import (
     PPROPERTYKEY,
     PPROPVARIANT
 )
-from iid import (
+from .iid import (
     IID_IPolicyConfig,
     CLSID_PolicyConfigClient,
     IID_IPolicyConfigVista,

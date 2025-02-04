@@ -19,14 +19,14 @@
 import ctypes
 import comtypes
 from comtypes import CoClass
-from propertystore import PROPERTYKEY, PIPropertyStore, PPROPVARIANT
-from enum import (
+from .propertystore import PROPERTYKEY, PIPropertyStore, PPROPVARIANT
+from .enum import (
     ERole,
     EDataFlow,
     PEDataFlow
 )
 
-from iid import (
+from .iid import (
     IID_IMMDevice,
     IID_IMMDeviceCollection,
     IID_IMMDeviceEnumerator,

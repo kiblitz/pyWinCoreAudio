@@ -18,7 +18,7 @@
 
 import ctypes
 from comtypes import GUID
-from mmdeviceapi import PIMMDevice
+from .mmdeviceapi import PIMMDevice
 
 from ctypes.wintypes import (
     FLOAT,
